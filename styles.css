@@ -51,3 +51,9 @@ h1 {
   );
   box-shadow: 0 0 20px 0 blue;
 }
+
+.blue:hover,
+.red:hover,
+.green:hover {
+  transform: rotate(10deg) scale(1.05);
+}
